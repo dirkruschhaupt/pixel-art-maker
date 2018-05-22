@@ -17,7 +17,7 @@
 
   colorSection.addEventListener('click', function (event) {
     currentColor = event.target.style.backgroundColor;
-    brushColor.style.backgroundColor = event.target.style.backgroundColor;
+    brushColor.style.backgroundColor = currentColor;
   })
 
 
