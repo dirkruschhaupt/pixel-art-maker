@@ -1,0 +1,60 @@
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+}
+
+.canvas-section {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 280px;
+  width: 532px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.canvas-box {
+  height: 12px;
+  width: 12px;
+  border: 1px solid black;
+}
+
+#brush-color {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  height: 16px;
+  width: 16px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+.current {
+  text-align: center;
+}
+
+.color-section {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.color-box {
+  height: 16px;
+  width: 16px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
